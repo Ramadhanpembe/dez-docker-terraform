@@ -3,6 +3,11 @@ services:
     networks:
       - default
       - pipeline_default
+    volumes:
+      - ~/.config/gcloud:/home/astro/.config/gcloud:ro
+    environment:
+      - GOOGLE_APPLICATION_CREDENTIALS=/home/astro/.config/gcloud/application_default_credentials.json
+      - GOOGLE_CLOUD_PROJECT=dez-terraform-demo-504509
 
 networks:
   pipeline_default:

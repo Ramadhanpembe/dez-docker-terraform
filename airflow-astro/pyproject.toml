@@ -9,6 +9,7 @@ authors = [
 requires-python = ">=3.14"
 dependencies = [
     "apache-airflow>=3.3.0",
+    "apache-airflow-providers-google>=22.3.0",
     "duckdb>=1.5.5",
 ]
 
