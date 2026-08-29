@@ -1,0 +1,5 @@
+docker run --rm \
+    -v "$(pwd)/data:/data" \
+    tip-predictor \
+    --input /data/green_tripdata_2019-01.csv \
+    --output /data/green_tripdata_2019-01_predicted.csv

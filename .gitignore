@@ -1,3 +1,9 @@
+# data
+data/
+
+# models
+model/
+
 # arirflow
 *.json
 *.csv
