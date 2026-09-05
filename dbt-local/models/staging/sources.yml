@@ -1,0 +1,14 @@
+sources:
+  - name: raw
+    description: >
+          A sample desc.
+    database: ny_taxi
+    schema: public
+
+    tables:
+      - name: yellow_tripdata
+        description: >
+          A sample desc.
+      - name: green_tripdata
+        description: >
+          A sample desc.

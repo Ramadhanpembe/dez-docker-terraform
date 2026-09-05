@@ -1,0 +1,8 @@
+models:
+    - name: stg_green_tripdata
+      description: >
+        This a sample desc.        
+    - name: stg_yellow_tripdata
+      description: >
+        This a sample desc. 
+        
