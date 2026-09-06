@@ -1,0 +1,10 @@
+version: 2
+
+models:
+    - name: int_trips_union
+      description: >
+        ...
+
+    - name: int_trips
+      description: >
+        ...

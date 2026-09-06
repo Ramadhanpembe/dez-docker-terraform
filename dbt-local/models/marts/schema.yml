@@ -1,0 +1,14 @@
+version: 2
+
+models:
+    - name: dim_vendors
+      description: >
+        ...
+
+    - name: dim_zones
+      description: |
+        ...
+
+    - name: fct_trips
+      description: >
+        ...
